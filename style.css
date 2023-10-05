@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'sansbold';
+    src: url(fonts/PTSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'sans';
+    src: url(fonts/PTSans-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'sans';
+}
+/*  ========================================== top header ============================== */
+.header-items{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+}
+.learning{
+    display: flex;
+    align-items: center;
+}
+.learning-journal{
+    margin-left: 5px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    
+}
+.home{
+    margin: 0 20px 0  auto;
+    font-family: 'sans';
+    font-weight: 600;
+
+}
+.about{
+    font-family: 'sans';
+    font-weight: 600;
+}
+/*  ================================= bottom header ==================================== */
+
+#header-image{
+    width: 100%;
+    padding: 5px;
+}
+.bottom-header{
+    max-width: 1200px;
+    color: rgb(0, 0, 0);
+    margin: 50px auto;
+    overflow: hidden;
+}
+.bottom-header-content{
+    padding: 20px 100px;
+}
+
+.date {
+    font-size: 16px;
+}
+
+.main-title {
+    margin: 30px 0;
+    font-weight: 700px;
+}
+.main-content{
+    margin: 20px 0;
+}
+.personal-information{
+    display: flex;
+    padding: 10px;
+}
+.personal-information-image{
+    height: 200px;
+    border-radius: 50%;
+}
+.pi-content{
+    padding: 20px;
+}
+/* =============================================== container ============================= */
+
+.container{
+    max-width: 1200px;
+    margin: 10px auto 40px;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    max-width: 360px;
+    /* background-color: rgb(8, 104, 142); */
+    overflow: hidden;
+    padding: 0 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.column-date, .column-title{
+    margin: 10px 0;
+}
+
+.column-content{
+    width: 100%;
+}
+.a{
+    text-align: center;
+}
+
+#view{
+    font-weight: 700;
+    color: black;
+}
+
+/* ==================================== footer ============================= */
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
